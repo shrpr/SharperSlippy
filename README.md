@@ -12,7 +12,7 @@ https://www.nuget.org/packages/SQLite.Net-PCL/
 
 # Sample Usage
 
-'''c#
+```c#
 ...
 using SharperSlippy;
 ...
@@ -20,4 +20,4 @@ using SharperSlippy;
 TileUtility.CreateTileCache(TileServers.OpenStreetMap, SqlConnection, 
                             SELat, SELon, NWLat, NWLon, 
                             MinZoom, MaxZoom);
-'''
+```
